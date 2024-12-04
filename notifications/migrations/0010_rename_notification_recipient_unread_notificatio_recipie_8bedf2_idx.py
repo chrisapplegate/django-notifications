@@ -9,10 +9,4 @@ class Migration(migrations.Migration):
         ('notifications', '0009_alter_notification_options_and_more'),
     ]
 
-    operations = [
-        migrations.RenameIndex(
-            model_name='notification',
-            new_name='notificatio_recipie_8bedf2_idx',
-            old_fields=('recipient', 'unread'),
-        ),
-    ]
+    operations = []
